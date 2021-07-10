@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Clone Troopers
+        </title>
+        
+        <script src="https://kit.fontawesome.com/2886b68951.js" crossorigin="anonymous"></script>
+
+        <style>
+
+            body{
+                font-family: verdana,sans-serif;
+                color:whitesmoke;
+                background: url("https://images.wallpaperscraft.com/image/stars_glare_black_204142_4608x3456.jpg") fixed;
+                background-position: center;
+            }
+
+            header,footer{
+                display:flex;
+                justify-content: space-between;
+            }
+
+            #header1,#footer{
+                display:flex;
+            }
+
+            header{
+                padding:3% 3% 3% 3%;
+            }
+
+            #header1{
+                width:45%;
+            }
+
+            #nav-bar{
+                width:30%;
+                align-self: center;
+                display:flex;
+                justify-content: space-around;
+            }
+
+            #footer{
+                width:40%;
+                align-content:center;
+                margin-left: 5%;
+            }
+
+            #footer-nav{
+                width:30%;
+                margin-right: 3%;
+            }
+
+            #cards{
+                display:flex;
+                text-align:center;
+                width:90%;
+                margin:2% 5% 7.5% 5%;
+                justify-content: space-between;
+            }
+
+            #form{
+                text-align: center;
+                padding:7.5% 0% 7.5% 0%;
+                font-size: 1.75em;
+            }
+
+            input,button{
+                font-size: 0.75em;
+                border:none;
+                border-radius: 0.25em;
+                height: 2em;
+            }
+
+            .features{
+                display:flex;
+                width:70%;
+                margin:5% 15% 5% 15%;
+            }
+
+            img{
+                width:5em;
+                height: 5em;
+            }
+
+            .nav-link{
+                padding:3% 3% 3% 3%;
+                border:none;
+                border-radius: 0.5em;
+                background-color: lightgrey;
+            }
+
+            #product{
+                margin-left: 5%;
+            }
+
+            iframe{
+                width:50%;
+                margin:5% 25% 5% 25%;
+            }
+
+            .card{
+                width:30%;
+                border:solid 0.5em lightgrey;
+                border-radius: 1em;
+                padding-bottom: 3%;
+            }
+
+            .desc{
+                width:50%;
+                margin:10% 25% 10% 25%;
+            }
+
+            #lic{
+                width:2em;
+                height:2em;
+                margin:0% 3% 0% 3%;
+                align-self: center;
+            }
+
+            .footer-nav{
+                color:whitesmoke;
+                padding:3% 3% 3% 3%;
+            }
+
+            #copyright{
+                text-align: center;
+            }
+
+            .feature{
+                margin-left: 3%;
+            }
+
+            a{
+                text-decoration: none;
+                color:black;
+            }
+
+            .order{
+                width:25%;
+                height: 10%;
+                margin:auto;
+                background-color: goldenrod;
+                border:none;
+                border-radius: 1em;
+            }
+
+            hr{
+                width:90%;
+                margin:0% 5% 2% 5%;
+            }
+
+            @media(max-width:500px){
+                body{
+                    background:black;
+                }
+            }
+
+            #email{
+                margin-right: 1%;
+            }
+
+            #lic-details{
+                align-self: center;
+            }
+
+            #add-nav{
+                display:flex;
+                justify-content: space-around;
+            }
+
+        </style>
+    </head>
+    <body>
+        <header id="header">
+            <div id="header1">
+                <img id="header-img" src="https://cdn3.iconfinder.com/data/icons/miscellaneous-38/64/clone-trooper_helmet_2-128.png" alt="clone-trooper">
+                
+                <h1 id="product">
+                    Clone Troopers
+                </h1>
+            </div>
+
+            <nav id="nav-bar">
+                
+                <a class="nav-link" href="#feature-card">Features</a>
+
+                <a class="nav-link" href="#video">Portfolio</a>
+
+                <a class="nav-link" href="#cards">Pricing</a>
+
+            </nav>
+        </header>
+
+        <hr>
+
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            
+            <p>
+                Handcrafted home-made clones
+            </p>
+
+            <input id="email" type="email" required placeholder=" Enter your email here">
+
+            <button id="submit" type="submit">Get started</button>
+
+        </form>
+
+        <div id="feature-card">
+
+            <div class="features">
+
+                <img src="https://cdn4.iconfinder.com/data/icons/heroes-villains-vol-1-colored/100/Boba_Fett-128.png">
+                
+                <div class="feature">
+
+                    <h3>Premium finish</h3>
+
+                    <p>Our clones undergo the best training in the galaxy on Kamino. This will increase the longevity of <em>your</em> empire.</p>
+                
+                </div>
+
+            </div>
+
+            <div class="features">
+
+                <img src="https://cdn4.iconfinder.com/data/icons/movies-2-ultra-color/60/074_-_Star_Fighter-128.png">
+                
+                <div class="feature">
+
+                    <h3>Fast shipping</h3>
+
+                    <p>We make sure you recieve your clones as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+                
+                </div>
+
+            </div>
+
+            <div class="features">
+
+                <img src="https://cdn0.iconfinder.com/data/icons/universe-filloutline/64/light_saber-Science_fiction-miscellaneous-electronics-weapons-film_-128.png">
+                
+                <div class="feature">
+
+                    <h3>Quality assurance</h3>
+
+                    <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the quality of each of your clone.</p>
+                
+                </div>
+
+            </div>
+        </div>
+
+        <iframe id="video" width="600" height="350" src="https://www.youtube.com/embed/oYiz4rgE21Y">
+        </iframe>
+        
+        <div id="cards">
+            <div class="card">
+                <h4>
+                    Assault Troopers
+                </h4>
+
+                <h5>
+                    10000 credits
+                </h5>
+
+                <p class="desc">
+                    Lorem ipsum.
+                    Lorem ipsum.
+                    Lorem ipsum dolor.
+                    Lorem ipsum.
+                </p>
+
+                <button class="order" type="submit">Select</button>
+            </div>
+
+            <div class="card">
+                <h4>
+                    Marine Troopers
+                </h4>
+
+                <h5>
+                    20000 credits
+                </h5>
+
+                <p class="desc">
+                    Lorem ipsum.
+                    Lorem ipsum.
+                    Lorem ipsum dolor.
+                    Lorem ipsum.
+                </p>
+
+                <button class="order" type="submit">Select</button>
+            </div>
+
+            <div class="card">
+                <h4>
+                    Clone Assassins
+                </h4>
+
+                <h5>
+                    50000 credits
+                </h5>
+
+                <p class="desc">
+                    Lorem ipsum.
+                    Lorem ipsum.
+                    Lorem ipsum dolor.
+                    Lorem ipsum.
+                </p>
+
+                <button class="order" type="submit">Select</button>
+            </div>
+        </div>
+
+        <hr>
+
+        <footer>
+            
+            <div id="footer">
+                <img id="lic" src="https://cdn0.iconfinder.com/data/icons/super-batman/24/3151591_-_empire_galactic_logo_sigil_star_wars-128.png">
+
+                <p id="lic-details">Approved by the galactic empire</p>
+            </div>
+            
+            <div id="footer-nav">
+                
+                <div id="add-nav">
+                    <a class="footer-nav" href=#>Privacy</a>
+                    <a class="footer-nav" href=#>Terms</a>
+                    <a class="footer-nav" href=#>Contact</a>
+                </div>
+                
+                <p id="copyright">
+                    Copyright 2020, Mines of Kamino.
+                </p>
+            </div>
+        </footer>
+    
+    </body>
+</html>
